@@ -2,6 +2,15 @@
     padding: 20px;
 }
 
+#carousel {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.card {
+    margin: 0 auto;
+}
+
 .heading-container {
     text-align: center;
     font-family: 'Ephesis', cursive;
