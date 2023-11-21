@@ -1,0 +1,38 @@
+.row{
+    padding: 20px;
+}
+
+.heading-container {
+    text-align: center;
+    font-family: 'Ephesis', cursive;
+}
+
+.heading-container h1 {
+    font-size: 62px;
+    font-weight: bold;
+}
+.heading-container p {
+    font-size: 25px;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+
+.form-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    gap: 30px;
+}
+
+.form-container button {
+    margin-left: 20px;
+}

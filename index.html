@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/6f8775afbd.js" crossorigin="anonymous"></script>
+  <title>Bed and Breakfast</title>
+
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="heading-container">
+    <h1>Welcom to The Serene Haven Retreat</h1>
+    <p>Indulge in the elegance of our well-appointed rooms and suites, each designed to envelop you in comfort and luxury. <br> From cozy fireplaces to breathtaking views, every detail is crafted to ensure a serene and delightful stay.</p>
+  </section>
+
+
+  <!-- Carousel -->
+  <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="images/img1.jpg" alt="First slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>The Tranquil Suite</h5>
+          <p>It is adorned with tasteful decor and thoughtful touches. From the elegant furnishings to the soft ambient lighting, every detail has been curated to create an atmosphere of tranquility and luxury.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="images/img2.jpg" alt="Second slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Food</h5>
+          <p>Our culinary team takes pride in sourcing the finest local ingredients, handpicking fresh produce from nearby farms and artisans. Every dish is crafted with precision, highlighting the seasonal bounty and flavors unique to the Willow Creek Valley region.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="images/img7.jpg" alt="Third slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Outdoor Experince</h5>
+          <p>Step outside and discover the beauty of nature as you explore our winding trails that meander through Oakwood Forest. Breathe in the fresh mountain air, listen to the melodious chirping of birds, and encounter the serene beauty of local flora and fauna.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+
+  </div>
+
+  <!-- Three Cards -->
+  <div class="row">
+    <div class="col mb-3 mb-sm-0">
+      <div class="card" style="width: 18rem;">
+        <img src="images/img2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">As the sun sets, join us for an evening of culinary elegance. Our dinner menu showcases a fusion of local flavors and international cuisine, prepared with a creative touch by our talented chefs.</p>
+          <a href="#" class="btn btn-primary">More Info</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="images/img6.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">The suite boasts a cozy sitting area where you can unwind by the fireplace, sipping on a glass of wine while taking in the breathtaking views of Willow Creek Valley.</p>
+          <a href="#" class="btn btn-primary">More Info</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="images/img5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Contact us for booking information and offers.</p>
+          <a href="contact.html" class="btn btn-primary">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="footer">
+    <h4>Contact Us</h4>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+    </div>
+</section>
+</body>
+
+</html>
